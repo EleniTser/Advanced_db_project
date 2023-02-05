@@ -41,4 +41,4 @@ In detail, **the questions of the assignment** are as follows:
 
 * `query_choice.py` : gives the user the option to run only one of the queries via user input and we run it with `python.3.8 query_choice.py` command.
 
-* `03118117_03118165.pdf` : answers for all the questions of the project
+* `03118117_03118165.pdf` : answers for all the questions of the project.
