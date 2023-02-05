@@ -1,4 +1,4 @@
-# Advanced DataBases Project
+# Advanced DataBases Project NTUA 2022-2023
 
 ## Overall Description
 
@@ -6,7 +6,7 @@ In this task we are required to process volume data using the Apache Spark.
 The data is about taxi trip records in New York City. The trip records include fields related to the dates/times of pickup and drop-off times and times, pick-up and drop-off locations, trip distances, detailed fares, fare types, fare types, payment types and number of passengers reported by the driver. 
 The data used in the attached data sets were collected and provided to the New York Taxi and Limousine Commission (TLC) by providers technology providers. The data (by month) and description are open and can be found at https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page.
 
-We used Spark version 3.3.1 with HDFS as the system file storage. Also, we used the DataFrame API  and the RDD API.
+We used Spark version 3.3.1 with HDFS as the system file storage. Also, we used the DataFrame API and the RDD API. Python3.8 is also necessary.
 The Yellow Taxi Trip Records data required for our project are for the months 
 January to June 2022 (in compressed parquet format). The exact description of the fields of the data can be found here:
 https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
@@ -34,3 +34,11 @@ In detail, **the questions of the assignment** are as follows:
 3. Run Q3 using the DataFrame/SQL API and the RDD API. We want the results and execution times of the query using 1 and 2 workers. 
 
 4. Run Q4, Q5 using the DataFrame/SQL API. We want the results and execution times of the query using 1 and 2 workers.
+
+### What you'll find in this repository:
+
+* `all_queries.py` : run with `spark-submit all_queries.py` command, which executes all the queries at once.
+
+* `query_choice.py` : gives the user the option to run only one of the queries via user input and we run it with `python.3.8 query_choice.py` command.
+
+* `03118117_03118165.pdf` : answers for all the questions of the project
